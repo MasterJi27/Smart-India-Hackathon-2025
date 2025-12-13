@@ -1,0 +1,26 @@
+fastapi
+uvicorn[standard]
+python-dotenv
+google-generativeai
+requests
+pydantic[email]
+email-validator
+
+# Security & Authentication
+bcrypt>=4.0.1
+passlib[bcrypt]>=1.7.4
+
+# Database
+sqlalchemy>=2.0.0
+psycopg2-binary>=2.9.9
+alembic>=1.13.0
+
+# Rate Limiting
+slowapi>=0.1.9
+
+# Logging & Monitoring
+sentry-sdk[fastapi]>=1.39.0
+python-json-logger>=2.0.7
+
+# SSL/HTTPS
+cryptography>=41.0.0
