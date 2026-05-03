@@ -25,3 +25,4 @@ docker run -p 3000:3000 sih-2025
 - **Backend**: Node.js
 - **CI/CD**: GitHub Actions
 - **Containerization**: Docker
+- **AI Integration**: OpenAI / DeepSeek
