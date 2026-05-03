@@ -2,8 +2,8 @@
 Database models and ORM configuration using SQLAlchemy
 """
 from sqlalchemy import create_engine, Column, Integer, String, DateTime, Text, Boolean
-from sqlalchemy.ext.declarative import declarative_base
-from sqlalchemy.orm import sessionmaker
+# Updated import to use the modern location for declarative_base (SQLAlchemy 2.0+)
+from sqlalchemy.orm import declarative_base, sessionmaker
 from datetime import datetime
 import os
 from dotenv import load_dotenv
